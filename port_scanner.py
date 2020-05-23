@@ -3,7 +3,7 @@ import socket
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 
-host = "192.168.1.6"
+host = input("Enter the IP address you want to scan: ")
 port = int(input("Enter the Port you want to scan: "))
 
 def port_scanner(port):
